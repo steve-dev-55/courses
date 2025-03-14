@@ -45,8 +45,8 @@ const App = () => {
   const [bad, setBad] = useState(0)
 
   const increaseGood = () => setGood(good + 1)
-  const increaseNeutral = () => setNeutral(neutral + 1)
-  const increaseBad = () => setBad(bad + 1)
+  const increaseNeutral = () => setNeutral(neutral + 0)
+  const increaseBad = () => setBad(bad - 1)
 
   return (
     <>
