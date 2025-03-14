@@ -5,7 +5,6 @@ const Button = (props) => (
     {props.text}
   </button>
 )
-const Display = props => <div>{props.value}</div>
 
 const StatisticLine = (props) => {
   return (
